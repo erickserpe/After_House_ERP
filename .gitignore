@@ -1,0 +1,25 @@
+# Arquivo de conexão com o banco de dados local.
+# Contém senhas e não deve ir para o repositório.
+/includes/db.php
+
+# Arquivos de configuração de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependências do Composer (se você decidir usar no futuro)
+vendor/
+composer.lock
+
+# Arquivos de build ou pacotes
+node_modules/
+dist/
